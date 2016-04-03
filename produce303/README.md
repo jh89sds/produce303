@@ -6,11 +6,13 @@
 
 ## Usage
 
-{{npm install}}
- - 모듈 추가.(react, react-native 포함)
+
+    npm install
+ - module add(react, react-native contains)
  
-{{npm start}}
- - 서버 시작
+
+    npm start
+ - Server start
  
 http://localhost:3000
 
