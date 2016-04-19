@@ -9,6 +9,7 @@
     "express": "3.2.6",
     "express-react-views": "^0.10.1",
     "react": "^15.0.1",
+    "react-bootstrap": "^0.29.0",
     "react-dom": "^15.0.1"
   },
   "devDependencies": {
