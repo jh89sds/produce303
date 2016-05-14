@@ -20,10 +20,14 @@ const styles = StyleSheet.create({
     },
 });
 
+var Main = require('../main');
+
 const ColoredRaisedButton = MKButton.coloredButton()
     .withText('BUTTON')
     .withOnPress(() => {
-        alert("Hi, it's a colored button!");
+        //alert("Hi, it's a colored button!");
+        //this.props.navigator.push({name: 'login'});
+        AppRegistry.registerComponent('Main', () => Main);
     })
     .build();
 

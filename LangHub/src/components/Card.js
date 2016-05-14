@@ -17,7 +17,7 @@ import {
 } from 'react-native-material-kit';
 
 const theme = getTheme();
-const styles = require('../styles/ComponentStyles');
+const styles = require('../../styles/ComponentStyles');
 
 export default class Card extends Component {
     render(){
